@@ -4,7 +4,7 @@ import easyocr
 import io
 
 
-genai.configure(api_key="AIzaSyAqXz92Peh33tJS0jbiI0qqzb3u_fQksDE")#Add your API key here
+genai.configure(api_key="")#Add your API key here
 model = genai.GenerativeModel('gemini-1.5-flash')
 reader = easyocr.Reader(['en'])
 PROMPT="You are a summarizer AI. You are given a Text. You need to summarize the given text. The given text is :"
